@@ -1,0 +1,7 @@
+ruby 3.3.0
+nodejs 20.12.0
+yarn 1.22.19
+postgres 16.2
+# For postgres 16, need icu:  brew install icu4c gcc readline zlib curl ossp-uuid. might need in build path:
+# in .zshrc: export PKG_CONFIG_PATH="/opt/homebrew/bin/pkg-config:$(brew --prefix icu4c)/lib/pkgconfig:$(brew --prefix curl)/lib/pkgconfig:$(brew --prefix zlib)/lib/pkgconfig"
+
